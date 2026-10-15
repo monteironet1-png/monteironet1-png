@@ -1,8 +1,12 @@
 # Janilson M. Semedo
 
-### Software & AI Systems Builder · Language Technologist
+### Language Technology · Localization Operations · AI & Software Systems
 
-I build data-driven products where software, AI and language infrastructure meet. My work combines full-stack engineering, automation, product architecture and more than a decade of delivery across 600+ language projects.
+I combine more than a decade of professional language-services experience with software development, AI-assisted workflows and structured data systems.
+
+Since 2015, I have managed multilingual projects involving translation, terminology, linguistic quality assurance, project coordination and international client delivery. Today, I apply that operational experience to building language infrastructure, automation tools and data-driven applications.
+
+My work connects language expertise, people, technology and reliable delivery.
 
 ## What I build
 
@@ -14,21 +18,23 @@ I build data-driven products where software, AI and language infrastructure meet
 ## Selected work
 
 ### KrioluBase
-Professional Kabuverdianu language infrastructure for terminology, translation memories, parallel corpora, concordance and governed linguistic data.
+Developing professional language infrastructure for Kabuverdianu, including structured terminology, translation-memory resources, parallel corpora, concordance, dialect metadata and human-validated linguistic data.
 
 `Next.js · TypeScript · Supabase · PostgreSQL · Language Data Governance`
 
 _Private repository · Active development_
 
-### RJ38 Research Systems
-A modular research platform combining browser applications and headless workers for structured market analysis, signal evaluation and operational monitoring.
+### RJ38 Research Systems  — Data & Decision Infrastructure
+A modular software research platform combining web applications, processing workers, structured data, monitoring and rule-based analysis.
+
+Developed around traceable decisions, automated validation and controlled operational workflows.
 
 `React · TypeScript · Node.js · Supabase · Railway`
 
 _Private R&D_
 
-### VENUS
-A deterministic, callout-first paper-trading research engine with fail-closed safety boundaries and no execution or wallet path.
+### VENUS — Deterministic Research Engine
+A paper-trading research system for evaluating public-market callouts, with structured event processing, reproducible decisions and explicit safety boundaries.
 
 `Node.js · TypeScript · PostgreSQL · WebSockets · Telegram Operations`
 
@@ -41,8 +47,10 @@ A controlled brand editor that turns one project record into consistent Story, F
 
 _Private client system_
 
-### The Work Behind the Words
-A bilingual editorial archive documenting the systems, decisions and linguistic rigor behind translation, language access and clinical communication.
+### The Work Behind the Words — Editorial & Knowledge Systems
+A bilingual editorial platform documenting translation decisions, terminology, linguistic quality and the processes behind clinical, research and institutional communication.
+
+The project combines structured case studies, content architecture, responsible documentation and technical web publishing.
 
 `WordPress · PHP · JavaScript · Structured Data · Technical SEO`
 
@@ -51,6 +59,23 @@ _Launching at [theworkbehindthewords.com](https://theworkbehindthewords.com)_
 ## Technical toolkit
 
 `TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `Python` · `SQL` · `PostgreSQL` · `Supabase` · `WordPress` · `REST APIs` · `Railway`
+
+## Language technology
+
+`RWS Trados Studio` · `Translation Memories` · `Terminology Management` · `Xbench` · `memoQ` · `Phrase` · `XTM` · `TEP` · `LQA`
+
+## Platforms and infrastructure
+
+`Supabase` · `Railway` · `GitHub` · `WordPress` · `Git` · `AI-Assisted Development` · ` Windows Temrinal`
+
+
+## How I Approach Systems
+
+- Human accountability: AI and automation support expert judgment rather than replace it.
+- Traceability: Decisions, transformations and quality checks should be understandable.
+- Consistency: Terminology, documentation and structured data should remain coherent.
+- Reliability: Systems should prioritize validation, controlled workflows and clear failure boundaries.
+- Practical impact: Technology should solve real operational problems for people and organizations.
 
 ## Domain expertise
 
@@ -69,3 +94,5 @@ Building reliable systems with controlled data, traceable decisions and clear hu
 - [LinkedIn](https://www.linkedin.com/in/janilson-semedo-b34596147/)
 - [The Work Behind the Words](https://theworkbehindthewords.com)
 - [janilson@jmsemedo.com](mailto:janilson@jmsemedo.com)
+
+`Selected software repositories remain private because they involve active research, commercial development or client work. Non-confidential technical approaches and project context can be discussed where appropriate.`

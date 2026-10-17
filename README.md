@@ -24,7 +24,7 @@ Developing professional language infrastructure for Kabuverdianu, including stru
 
 _Private repository · Active development_
 
-### RJ38 Research Systems  — Data & Decision Infrastructure
+### RJ Quantitative Research Systems  — Data & Decision Infrastructure
 A modular software research platform combining web applications, processing workers, structured data, monitoring and rule-based analysis.
 
 Developed around traceable decisions, automated validation and controlled operational workflows.

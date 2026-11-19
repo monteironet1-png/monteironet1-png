@@ -1,98 +1,173 @@
 # Janilson M. Semedo
 
-### Language Technology · Localization Operations · AI & Software Systems
+### Language Technology · Software Products · Research Systems · Digital Communication
 
-I combine more than a decade of professional language-services experience with software development, AI-assisted workflows and structured data systems.
+I build practical digital systems at the intersection of **language, education, research, and technology**.
 
-Since 2015, I have managed multilingual projects involving translation, terminology, linguistic quality assurance, project coordination and international client delivery. Today, I apply that operational experience to building language infrastructure, automation tools and data-driven applications.
+Since 2015, I have worked across international language services, translation and localization, linguistic quality assurance, team coordination, and multilingual project delivery. I bring that operational experience into software development: designing tools around real workflows, reliable data, human judgment, and clear user needs.
 
-My work connects language expertise, people, technology and reliable delivery.
+**[Professional website](https://jmsemedo.com)** · **[Editorial portfolio](https://theworkbehindthewords.com)** · **[LinkedIn](https://www.linkedin.com/in/janilson-semedo-b34596147/)**
 
 ## What I build
 
-- Full-stack products with TypeScript, React, Next.js, Node.js and PostgreSQL
-- AI-assisted research and decision systems designed for traceability and human control
-- Multilingual infrastructure for Kabuverdianu, English and Portuguese
-- Editorial and automation tools that turn complex workflows into usable systems
+- **Language technology:** tools for interpreters, terminology, translation assets, and Kabuverdianu language infrastructure.
+- **Education technology:** teacher workflows, student-progress documentation, and school engagement.
+- **Data and research systems:** analytical interfaces, background workers, automated validation, and traceable decisions.
+- **Digital communication:** websites, editorial platforms, creative production tools, and structured content workflows.
 
-## Selected work
+## Featured applications
 
-### KrioluBase
-Developing professional language infrastructure for Kabuverdianu, including structured terminology, translation-memory resources, parallel corpora, concordance, dialect metadata and human-validated linguistic data.
+### InterpreterDesk 2.0 — Offline Windows Workspace for Interpreters
 
-`Next.js · TypeScript · Supabase · PostgreSQL · Language Data Governance`
+An offline-first desktop application designed to make recurring interpreting tasks easier to manage. It brings together **client-specific glossaries, greetings, reusable phrases, fast search, and local data management** in one workspace.
 
-_Private repository · Active development_
+The Windows version uses SQLite for local storage, with autosave, manual backups, JSON/CSV exports, and an explicit import path from the earlier browser-based version. A Windows installer is built through GitHub Actions.
 
-### RJ Quantitative Research Systems  — Data & Decision Infrastructure
-A modular software research platform combining web applications, processing workers, structured data, monitoring and rule-based analysis.
+`Tauri 2 · Rust · SQLite · HTML/JavaScript · GitHub Actions`
 
-Developed around traceable decisions, automated validation and controlled operational workflows.
+**[Windows installer — GitHub Actions artifact (restricted access)](https://github.com/monteironet1-png/InterpreterDesk/actions/runs/43911656591/artifacts/14249016953)** · **[Repository (private)](https://github.com/monteironet1-png/InterpreterDesk)**
 
-`React · TypeScript · Node.js · Supabase · Railway`
+*Status: Windows installer successfully built and installed. The repository is private; the installer link requires repository access and is a temporary Actions artifact, not a public Release.*
 
-_Private R&D_
+### Areté — Caderno de Evolução do Aluno
 
-### VENUS — Deterministic Research Engine
-A paper-trading research system for evaluating public-market callouts, with structured event processing, reproducible decisions and explicit safety boundaries.
+A web-based teacher workspace for **class management, daily classroom records, student progress, observations, assessment, and trimester grades**. It is designed to replace fragmented paper records with a clearer day-to-day teaching workflow, including schedules and a mobile-friendly, installable web experience.
 
-`Node.js · TypeScript · PostgreSQL · WebSockets · Telegram Operations`
+The project is being refined around consistent access across devices, reliable student-photo handling, and practical classroom use.
 
-_Private R&D_
+`Web App · PWA · WordPress Integration · Education Technology`
+
+**[Open Areté](https://caderno.jmsemedo.com/)**
+
+*Status: Active development · Private teaching workspace; sign-in may be required.*
+
+## Language and public-interest products
+
+### KrioluBase — Kabuverdianu Language Infrastructure
+
+A professional language-data platform for Kabuverdianu, conceived around **institutional terminology, dictionaries, translation memories, parallel corpora, and concordance**. Its architecture distinguishes language varieties and writing conventions while prioritizing provenance, rights, review history, and human validation.
+
+`Next.js · TypeScript · PostgreSQL · Terminology · Language Data Governance`
+
+*Status: Private repository · Phased development.*
+
+### PREÇO CERTO CV — Community Price Comparison
+
+A Cabo Verde-focused platform for comparing **prices actually observed on shopping receipts**, rather than presenting unverified prices as current offers. The intended workflow combines receipt submission, OCR/AI-assisted extraction, user correction, human validation, dated observations, and public product search.
+
+The pilot is designed around Assomada, with careful handling of receipts, personal data, and product equivalence.
+
+`Data Modeling · PostgreSQL · OCR/AI · Human Review · Mobile-first Product Design`
+
+*Status: Private repository · MVP development.*
+
+## Research, monitoring, and software infrastructure
+
+### RJ38 — Web Platform and Research Infrastructure
+
+A modular technical platform connecting a web interface with data services and research engines. The work includes application architecture, authentication, operational workflows, controlled access, and software integration.
+
+`React · TypeScript · Vite · APIs · PostgreSQL`
+
+*Repository represented: `rj38-website` · Private R&D.*
+
+### MARS — Structured Market Research System
+
+A research system combining a web-based monitoring interface with a separate background worker. It uses market observations, explicit eligibility rules, state transitions, testing, and traceable decision records to examine defined research hypotheses.
+
+`React · TypeScript · Node.js · SQL · Background Workers · Automated Testing`
+
+*Repositories represented: `MARStest` and `rj38-mars-worker` · Private R&D.*
+
+### JUPITER — Research Engine and Worker Architecture
+
+A complementary research application developed with a deliberate separation between its browser interface, deterministic analysis logic, and headless worker. The design emphasizes reproducibility, clear interfaces, and validation before operational changes.
+
+`React · TypeScript · Node.js · Data Pipelines · Software Testing`
+
+*Repositories represented: `JUPITER` and `rj38-jupiter-worker` · Private R&D.*
+
+### VENUS — Deterministic Callout Research
+
+An observation and **paper-trading research** engine for structured public-market callouts. It tracks events, stores research outcomes, and applies explicit processing and safety boundaries. Paper trading is simulated: **the system does not execute real trades**.
+
+`Node.js · TypeScript · PostgreSQL · WebSockets · Event Processing`
+
+*Repository represented: `VENUS` · Private R&D.*
+
+### HyperWatcher — Market and Wallet Analytics Interface
+
+A web application exploring dashboards for token activity, wallet lookup, monitored profiles, leaderboards, and subscription-aware navigation.
+
+`React · TypeScript · Vite · Data Visualization · Web Application Design`
+
+*Repository represented: `Hyper-Watcher` · Private prototype.*
+
+## Editorial, design, and communication systems
 
 ### IMA Technical Editorial Studio
-A controlled brand editor that turns one project record into consistent Story, Feed, LinkedIn and Hero artwork with exact-size PNG export.
 
-`React · TypeScript · Vite · Canvas · Editorial Systems`
+A project-based brand editor for IMA Engenharia & Construções. One structured project record can produce consistent branded artwork for **Stories, social feeds, LinkedIn, and website hero images**, with crop controls, editable content, local autosave, and exact-dimension PNG exports.
 
-_Private client system_
+`React · TypeScript · Vite · Canvas · Visual Content Systems`
 
-### The Work Behind the Words — Editorial & Knowledge Systems
-A bilingual editorial platform documenting translation decisions, terminology, linguistic quality and the processes behind clinical, research and institutional communication.
+*Repository represented: `IMA` · Private client project.*
 
-The project combines structured case studies, content architecture, responsible documentation and technical web publishing.
+### The Work Behind the Words
 
-`WordPress · PHP · JavaScript · Structured Data · Technical SEO`
+An editorial portfolio documenting what happens behind multilingual work: **translation decisions, terminology, quality control, research communication, and responsible project attribution**. Built around structured case studies and bilingual technical storytelling.
 
-_Launching at [theworkbehindthewords.com](https://theworkbehindthewords.com)_
+`WordPress · PHP · JavaScript · Editorial Architecture · Structured Content`
+
+**[Visit the website](https://theworkbehindthewords.com)**
+
+### JMSemêdo.com — Professional and Project Portfolio
+
+My institutional and professional website, bringing together language services, research, digital projects, selected work, and writing. It includes a structured project archive and purpose-built WordPress components.
+
+`WordPress · PHP · Custom Content Types · Web Publishing`
+
+**[Visit the website](https://jmsemedo.com)**
+
+### RJLinguist — Language Services Digital Presence
+
+A professional language-services identity focused on translation, interpreting, localization, and linguistic quality assurance. Its website is part of my work connecting multilingual service delivery with digital communication.
+
+`WordPress · Localization · Content Architecture · Professional Services`
+
+**[Visit the website](https://rjlinguist.com)**
+
+## Educational and media initiatives
+
+### PROTAGONISTA — Student Experience and Agency Programme
+
+An education initiative developed for **Escola Secundária Napoleão Fernandes (ESANF)**, with student participation, practical learning, creativity, leadership, and school belonging at its center. Its activities include student-led clubs, debate, peer teaching, and interactive school experiences.
+
+Related creative and communication work includes **ESANF TV** and **ESANF VIBES**, a student-life media identity for short videos, school stories, and everyday student expression.
+
+`Programme Design · Education · Branding · Digital Media · Student Engagement`
+
+*Status: School programme and associated media initiatives.*
 
 ## Technical toolkit
 
-`TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `Python` · `SQL` · `PostgreSQL` · `Supabase` · `WordPress` · `REST APIs` · `Railway`
+**Development:** `TypeScript` · `JavaScript` · `React` · `Next.js` · `Node.js` · `Python` · `SQL` · `HTML/CSS`
 
-## Language technology
+**Data and infrastructure:** `PostgreSQL` · `SQLite` · `Supabase` · `Neon` · `REST APIs` · `Railway` · `Git` · `GitHub Actions`
 
-`RWS Trados Studio` · `Translation Memories` · `Terminology Management` · `Xbench` · `memoQ` · `Phrase` · `XTM` · `TEP` · `LQA`
+**Desktop and web publishing:** `Tauri 2` · `Rust` · `PWA` · `WordPress` · `PHP` · `Vite`
 
-## Platforms and infrastructure
+**Language technology:** `RWS Trados Studio` · `memoQ` · `XTM` · `Xbench` · `Translation Memories` · `Terminology Management` · `TEP` · `LQA`
 
-`Supabase` · `Railway` · `GitHub` · `WordPress` · `Git` · `AI-Assisted Development` · ` Windows Temrinal`
+## How I work
 
-
-## How I Approach Systems
-
-- Human accountability: AI and automation support expert judgment rather than replace it.
-- Traceability: Decisions, transformations and quality checks should be understandable.
-- Consistency: Terminology, documentation and structured data should remain coherent.
-- Reliability: Systems should prioritize validation, controlled workflows and clear failure boundaries.
-- Practical impact: Technology should solve real operational problems for people and organizations.
-
-## Domain expertise
-
-- Translation, localization, TEP and linguistic quality assurance
-- Clinical research and language access
-- Kabuverdianu language data and terminology
-- Product architecture, automation and technical documentation
-
-## Current focus
-
-Building reliable systems with controlled data, traceable decisions and clear human authority.
+- **Human accountability:** automation and AI assist expert decisions; they do not replace human review where it matters.
+- **Traceability:** decisions, source material, data changes, and tests should be understandable.
+- **Quality and reliability:** prefer verifiable workflows, explicit boundaries, and careful validation over impressive but unsupported claims.
+- **Practical usefulness:** build around real problems in professional, educational, and community settings.
 
 ## Connect
 
-- [jmsemedo.com](https://jmsemedo.com)
-- [LinkedIn](https://www.linkedin.com/in/janilson-semedo-b34596147/)
-- [The Work Behind the Words](https://theworkbehindthewords.com)
-- [janilson@jmsemedo.com](mailto:janilson@jmsemedo.com)
+**[Website](https://jmsemedo.com)** · **[LinkedIn](https://www.linkedin.com/in/janilson-semedo-b34596147/)** · **[The Work Behind the Words](https://theworkbehindthewords.com)** · **[Email](mailto:janilson@jmsemedo.com)**
 
-`Selected software repositories remain private because they involve active research, commercial development or client work. Non-confidential technical approaches and project context can be discussed where appropriate.`
+*Most software repositories are private because they contain active research, client work, or software under development. Public descriptions do not imply that source code or installers are publicly available.*
